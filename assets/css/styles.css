@@ -1,0 +1,78 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F0F0F0;
+}
+
+.container {
+    background-color: white;
+    box-shadow: 0 4px 2px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0.01, 0.01);
+    padding: 15px;
+}
+
+.movies {
+    float: left;
+    display: inline;
+    width: 45%;
+    margin-top: 30px;
+}
+
+.nominations {
+    width: 45%;
+    display: inline-block;
+    margin: 30px;
+    font-size: bold;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+.container-wrapper {
+    width: 100%;
+}
+
+.search-container {
+    margin: 0 0 0 0;
+    margin-right: 0%;
+    width: 100%;
+    display: inline-block;
+}
+
+h1 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;  
+    background-image: url('../img/search.png');
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+
+.body-container {
+    margin-left: auto;
+    margin-top: 5%;
+    margin-right: auto;
+    width: 80%;
+}
+
+button {
+    background-color: white;
+    padding: 5px 15px 5px 15px;
+    border: 2px solid #DCDCDC;
+    border-radius: 4px;
+    margin-left: 15px;
+}
+
+li {
+    margin: 20px;
+}
+
+img {
+    width: 92%;
+    margin-bottom: 15px;
+}
